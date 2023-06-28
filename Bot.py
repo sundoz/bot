@@ -30,7 +30,7 @@ def all_debts(update, context):
 
 
 def main():
-    updater = Updater('1240679891:AAFvlcQ5imdSsdEoKNZUjdsuzOLAW_CYxxw',use_context=True)
+    updater = Updater(,use_context=True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler('start', start))
